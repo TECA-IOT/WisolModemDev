@@ -23,8 +23,8 @@
 | Voltaje minimo de Entrada   | 2.7 Voltios     |
 | Consumo corriente TX | 170mA      |
 | Consumo corriente RX   | 32mA     |
-|  RX   | 32mA     |
 | Consumo en modo Deep Sleep   | 2.5uA     |
+|  Antena helicoidal   | 2.5 Dbi     |
 
 ## Descripcion de pines
 
@@ -44,7 +44,7 @@
 - Necesitara tener un modulo USB a SERIAL como FTDI, CH340, CP201x, etc. Conecte los pines de manera adecuada a TINY DEVKIT SIGFOX (Rx con Tx y veceverza).
 - Conecte su modulo USB a SERIAL a su PC, espere a que sea reconocido el driver.
 - Use la aplicacion "SFM10R_AT_TEST_v14" .
-`<link>` : <https://github.com/markoAntonio1692/TINY-DEVKIT-SIGFOX/tree/master/Software>
+`<link>` : <https://github.com/TECA-IOT/Tiny-sigfox/tree/master/WSSFM_TEST_AT>
 - Abra el executable.
 - Ingrese el numero del puerto COM que fue detectado en su PC.
 - Clic en "Connect".
