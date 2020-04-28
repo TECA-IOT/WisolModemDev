@@ -2,7 +2,7 @@
 
 ## TINY SIGFOX IMAGEN
 
-![](https://github.com/markoAntonio1692/TINY-DEVKIT-SIGFOX/blob/master/imagenes/front-rear.png)
+![](https://github.com/TECA-IOT/Tiny-sigfox/blob/master/imagenes/TinySigfox.png)
 
 
 ## Caracteristicas
