@@ -1,4 +1,4 @@
-# TINY SIGFOX
+# TINY SIGFOX 2.0
 
 ## TINY SIGFOX IMAGEN
 
@@ -7,12 +7,15 @@
 
 ## Caracteristicas
 
-- Breackout de diseño simple y robusto para aplicaciones de bajo consumo de energia. 
-- Incorpora el modem WISSOL WSSFM10R4 permite conexiones a red Sigfox para regione RC4.
-- Antena Helicoidal y conector tipo UF-L para colocar antenas externas.
-- Ideal para aplicaciones con microcontroladores externos, Pic, Arduino, Arm, Raspberry Pi etc. Comunicacionvia  puerto Serial RX,TX a 9600 baudios y niveles de tension de 3.3V.
-- Voltaje de Funcionamiento interno de 3.3V.
-- Puede ser alimentado directamente con 2 Baterias Alcalinas, o baterias de litio 1S.
+- Breakout and castellated board modem Sigfox.
+- Diseño simple y robusto para aplicaciones de bajo consumo de energia. 
+- Incorpora a modem WISSOL WSSFM10R4 permite conexiones a red Sigfox para regione RC4.
+- Controlado mediante comando AT.
+- Ultra bajo consumo de energia.
+- Antena Helicoidal integrada y opcion de conector U.FL a SMA para antenas externas.
+- soporte para Uplink Downlink 
+- Ideal para aplicaciones con microcontroladores externos, Pic, Arduino, Arm, Raspberry Pi, etc. Comunicacion via  puerto UART Serial RX-TX a 9600 baudios, niveles de tension desde 2.5V a 4.2V. funcionamiento tipico de 3.3v
+- Puede ser alimentado directamente con 2 Baterias Alcalinas, o baterias de litio 3.7V 1S.
 
 ## Caracteristicas Electricas
 
@@ -36,6 +39,19 @@
 | Rst   | Reset WSSFM11R4AT    |
 | +3V   | VIN, Voltaje de entrada [2.7 - 3.6]Voltios    |
 | G   | GND     |
+
+### Pines Castellated
+Tiny Sigfox puede ser soldado directamente a una PCB, los orificios pasantes con ruptura permite la aplicacion de soldadura de estaño de manera sencilla
+
+| Pin| Descripcion                    |
+| --------------  | ------------------------------ |
+| G   |    GND    |  
+| Radio Led  |  Rx WSSFM11R4AT     | 
+| GPIO 0     |  I/O ADC DAC     |
+| GPIO 1     |  I/O ADC     |
+| GPIO 4     |  I/O DAC     |
+| RX-LED     |  RX actividad    |
+| TX-LED     |  Tx actividad    |
 
 
 
