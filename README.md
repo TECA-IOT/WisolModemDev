@@ -18,6 +18,5 @@
 
 
 # CAMBIANDO DE REGION DE OPERACION MODULOS SF10R2D
-
-`<link>` : <https://github.com/TECA-IOT/WisolModemDev/blob/master/imagenes/187875906_338800030911268_5456874291727247399_n.png>
+![](https://github.com/TECA-IOT/WisolModemDev/blob/master/imagenes/187875906_338800030911268_5456874291727247399_n.png)
 
