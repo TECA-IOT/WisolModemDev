@@ -1,4 +1,6 @@
 # SFM10R4 | SFM10R2D
+# Manual SFM10R4
+- `<link>` : <https://github.com/TECA-IOT/WisolModemDev/blob/master/DS_WSSFM10R4AT_REV07_20190901%20(3).pdf>
 
 # Probando módulo SFM10R4 
 
